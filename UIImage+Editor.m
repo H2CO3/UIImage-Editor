@@ -26,7 +26,7 @@ CGFloat degreesToRadians (CGFloat degrees) {
 
 // convert radians to degrees
 CGFloat radiansToDegrees (CGFloat radians) {
-	return (degrees / M_PI) * 180.0;
+	return (radians / M_PI) * 180.0;
 }
 
 @implementation UIImage (Editor)
